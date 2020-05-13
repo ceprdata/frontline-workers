@@ -8,9 +8,6 @@ Note:	See copyright notice at end of program.
 */
 
 
-/* Determine survey year */
-
-
 /*SOC Occupation Code*/
 
 /* Occupation codes are string with mixture of numbers and letters
