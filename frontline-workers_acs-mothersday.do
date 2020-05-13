@@ -4,8 +4,7 @@ set more 1
 /*
 File: frontline-workers_acs-mothersday.do
 Date: 06 May 2020
-Desc: A few more variables for frontline workers ACS extract, for the purposes of 
-Mother's Day report.
+Desc: Variables and tables via frontline workers ACS extract for CEPR's Mother's Day report.
 */
 
 
