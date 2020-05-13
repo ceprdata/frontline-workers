@@ -12,7 +12,7 @@ Washington, DC
 
 ## Usage
 
-1. Download cepr_acs_1418_beta_frontline.dta from 'data' (if that link doesn't work, a zipped version of the data file can also be downloaded [here](http://ceprdata.org/wp-content/acs/data/cepr_acs_1418_beta_frontline.dta.zip))
+1. Download cepr_acs_1418_beta_frontline.dta from 'data' (a zipped version of the data file can also be downloaded [here](http://ceprdata.org/wp-content/acs/data/cepr_acs_1418_beta_frontline.dta.zip))
 2. Recode any variables: raw industry and occupation variables are in the dataset
 see frontline-workers_acs_socp18.do and frontline-workers_acs.do ind3d_18
 see also frontlie-workers_acs_ind3d_18 for cepr's coding of frontline industries
