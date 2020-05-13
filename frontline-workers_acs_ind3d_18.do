@@ -1,15 +1,10 @@
 set more 1
 
 /*
-File:	frontline-workers_acs_socp18.do
+File:	frontline-workers_acs_ind3d_18.do
 Date: 01 April 2020
 Desc:	Creates consistent industry 3 digit variable.
 Note:	See copyright notice at end of program.
-
-	Part the cepr_acs_ind.do*/
-
-/* Determine survey year */
-
 
 /*Industry Recode, 3 digit*/
 
