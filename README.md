@@ -52,7 +52,7 @@ Boston Indicators (Massachusetts): [A Profile of Frontline Workers in Massachuse
 
 Montana Budget & Policy Center (Montana): [Montana’s Frontline Workers Are Mostly Women and People of Color](https://montanabudget.org/post/montanas-frontline-workers-are-mostly-women-and-people-of-color)
         
-Fiscal Policy Institute (New York): [Appreciating New York’s EssentialWorkers at a Time of Pandemic](http://fiscalpolicy.org/wp-content/uploads/2020/04/Essential-Workers-Brief-Final.pdf)
+Fiscal Policy Institute (New York): [Appreciating New York’s Essential Workers at a Time of Pandemic](http://fiscalpolicy.org/wp-content/uploads/2020/04/Essential-Workers-Brief-Final.pdf)
         
 North Carolina Justice Center (North Carolina): [1 in 5 workers in N.C. are in industries on the frontlines of COVID-19 response](https://www.ncjustice.org/publications/1-in-5-workers-in-n-c-are-in-industries-on-the-frontlines-of-covid-19-response/)
         
