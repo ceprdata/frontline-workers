@@ -42,7 +42,7 @@ CEPR has used this data to produce related reports on [meatpacking workers](http
 
 The National Partnership for Women & Families has also [cited](https://www.nationalpartnership.org/our-work/economic-justice/frontline-workers/) our data. Finally, our state specific data has been used in subsequent reports by other organizations, including:
 
-Florida Policy Institute (Flordia): [Florida’s 2 Million Essential Workers: 5 Stark Realities and 5 Policy Solutions](https://www.floridapolicy.org/posts/floridas-2-million-essential-workers-5-stark-realities-and-5-policy-solutions)
+Florida Policy Institute (Florida): [Florida’s 2 Million Essential Workers: 5 Stark Realities and 5 Policy Solutions](https://www.floridapolicy.org/posts/floridas-2-million-essential-workers-5-stark-realities-and-5-policy-solutions)
 
 Kentucky Center for Economic Policy (Kentucky): [Who Are Kentucky’s Essential Workers on the Frontlines of the COVID-19 Pandemic?](https://kypolicy.org/who-are-kentuckys-essential-workers-on-the-frontlines-of-the-covid-19-pandemic/)
 
