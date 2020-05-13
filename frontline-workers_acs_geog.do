@@ -7,9 +7,6 @@ Desc: Geographic variable recodes from 2014-2018 5-year ACS for frontline worker
 Note:	See copyright notice at end of program.
 */
 
-/* Determine survey year */
-*local year=year in 1
-
 /* Place of residence */
 
 /* State (residence) */
@@ -26,7 +23,7 @@ lab def state
 5 "Arkansas"
 6 "California"
 8 "Colorado"
-9 "Conneticut"
+9 "Connecticut"
 10 "Delaware"
 11 "District of Columbia"
 12 "Florida"
@@ -65,7 +62,7 @@ lab def state
 47 "Tennessee"
 48 "Texas"
 49 "Utah"
-50 "Vemont"
+50 "Vermont"
 51 "Virginia"
 53 "Washington"
 54 "West Virginia"
@@ -100,7 +97,7 @@ lab def powsp10
 5 "Arkansas"
 6 "California"
 8 "Colorado"
-9 "Conneticut"
+9 "Connecticut"
 10 "Delaware"
 11 "District of Columbia"
 12 "Florida"
@@ -139,7 +136,7 @@ lab def powsp10
 47 "Tennessee"
 48 "Texas"
 49 "Utah"
-50 "Vemont"
+50 "Vermont"
 51 "Virginia"
 53 "Washington"
 54 "West Virginia"
