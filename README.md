@@ -16,7 +16,7 @@ Washington, DC
 2. Recode any variables: raw industry and occupation variables are in the dataset
 see frontline-workers_acs_socp18.do and frontline-workers_acs.do ind3d_18
 see also frontlie-workers_acs_ind3d_18 for cepr's coding of frontline industries
-3. Run frontline-workers_tables.do to replicate national/state numbers in cepr release
+3. Run frontline-workers_tables.do to replicate national/state numbers in CEPR's release
 4. If you want variables that are not in this dataset, please contact us:
 rho@cepr.net or brown@cepr.net.
 5. To start from scratch and pull raw variables, do the following:
