@@ -1,7 +1,7 @@
 /*
 File:	cepr_acs_read_1418.do
-Date:	May 30, 2019, CEPR ACS 2014-2018 Beta Version
-Desc:	Reads and pre-processes raw ACS 1418 data
+Date:	May 30, 2020, CEPR ACS 2014-2018 Beta Version
+Desc:	Reads and pre-processes raw ACS 5-year sample (2014-2018) data
 */
 
 	/*Windows vs. GNU/Linux*/
@@ -12,10 +12,10 @@ global version "beta"
 if $gnulin==0 {
 
 /* set directories */ 
-global do "/ACS/do" 
-global raw_data "/ACS/raw_data"  
-global working "/ACS/tmp"
-global dataout "/ACS/data"
+global do "\ACS\do" /* do files extracts */
+global raw_data "\ACS\raw_data" /* original Census files */
+global working "\ACS\tmp" /* CEPR extracts in progress */
+global dataout "\ACS\data" /* final CEPR extracts */
 
 }
 
@@ -23,10 +23,10 @@ global dataout "/ACS/data"
 if $gnulin==1 {
 
 /* set directories */
-global do "\ACS\do" /* do files extracts */
-global raw_data "\ACS\raw_data" /* original Census files */
-global working "\ACS\tmp" /* CEPR extracts in progress */
-global dataout "\ACS\data" /* final CEPR extracts */
+global do "/ACS/do" 
+global raw_data "/ACS/raw_data"  
+global working "/ACS/tmp"
+global dataout "/ACS/data"
 
 }
 
