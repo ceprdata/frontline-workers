@@ -14,9 +14,9 @@ global version "beta"
 if $gnulin==0 {
 
 /* set directories */ 
-global do "/frontline-workers/do" 
-global data "/frontline-workers/data"  
-global log "/frontline-workers/log"
+global do "\frontline-workers\do" 
+global data "\frontline-workers\data" 
+global log "\frontline-workers\log"
 
 }
 
@@ -24,9 +24,9 @@ global log "/frontline-workers/log"
 if $gnulin==1 {
 
 /* set directories */
-global do "\frontline-workers\do" 
-global data "\frontline-workers\data" 
-global log "\frontline-workers\log"
+global do "/frontline-workers/do" 
+global data "/frontline-workers/data"  
+global log "/frontline-workers/log"
 
 }
 
