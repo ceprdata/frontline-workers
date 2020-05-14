@@ -42,7 +42,7 @@ CEPR has used this data to produce related reports on [meatpacking workers](http
 
 The National Partnership for Women & Families has also [cited](https://www.nationalpartnership.org/our-work/economic-justice/frontline-workers/) our data. Finally, our state data has been used and adapted in subsequent reports by other organizations, including:
 
-Bay Area Equity Atlas (California): [A Profile of Frontline Workers in the Bay Area](https://bayareaequityatlas.org/essential-workers/)
+Bay Area Equity Atlas/ PolicyLink (California): [A Profile of Frontline Workers in the Bay Area](https://bayareaequityatlas.org/essential-workers/)
 
 Florida Policy Institute (Florida): [Florida’s 2 Million Essential Workers: 5 Stark Realities and 5 Policy Solutions](https://www.floridapolicy.org/posts/floridas-2-million-essential-workers-5-stark-realities-and-5-policy-solutions)
 
