@@ -40,7 +40,9 @@ The contents of this repository form the basis for CEPR's
 [report](https://cepr.net/a-basic-demographic-profile-of-workers-in-frontline-industries/) on workers on the frontlines of the COVID-19 pandemic in the United States. 
 CEPR has used this data to produce related reports on [meatpacking workers](https://cepr.net/meatpacking-workers-are-a-diverse-group-who-need-better-protections/), [frontline mothers](https://cepr.net/mothers-in-frontline-industries-deserve-better/), and frontline workers in [Chicago and Illinois](https://cepr.net/frontline-workers-chicago-and-illinois/). 
 
-The National Partnership for Women & Families has also [cited](https://www.nationalpartnership.org/our-work/economic-justice/frontline-workers/) our data. Finally, our state specific data has been used in subsequent reports by other organizations, including:
+The National Partnership for Women & Families has also [cited](https://www.nationalpartnership.org/our-work/economic-justice/frontline-workers/) our data. Finally, our state specific data has been used and adapted in subsequent reports by other organizations, including:
+
+Bay Area Equity Atlas (California): [A Profile of Frontline Workers in the Bay Area](https://bayareaequityatlas.org/essential-workers/)
 
 Florida Policy Institute (Florida): [Florida’s 2 Million Essential Workers: 5 Stark Realities and 5 Policy Solutions](https://www.floridapolicy.org/posts/floridas-2-million-essential-workers-5-stark-realities-and-5-policy-solutions)
 
@@ -58,4 +60,4 @@ North Carolina Justice Center (North Carolina): [1 in 5 workers in N.C. are in i
         
 Public Assets Institute (Vermont): [Women filled most of the frontline jobs](https://publicassets.org/blog/women-filled-most-of-the-frontline-jobs/)
  
-
+West Virginia Center on Budget and Policy (West Virginia): [Who Are West Virginia’s Frontline Workers?](https://wvpolicy.org/who-are-west-virginias-frontline-workers/)
