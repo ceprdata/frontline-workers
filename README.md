@@ -57,6 +57,8 @@ Montana Budget & Policy Center (Montana): [Montana’s Frontline Workers Are Mos
 Fiscal Policy Institute (New York): [Appreciating New York’s Essential Workers at a Time of Pandemic](http://fiscalpolicy.org/wp-content/uploads/2020/04/Essential-Workers-Brief-Final.pdf)
         
 North Carolina Justice Center (North Carolina): [1 in 5 workers in N.C. are in industries on the frontlines of COVID-19 response](https://www.ncjustice.org/publications/1-in-5-workers-in-n-c-are-in-industries-on-the-frontlines-of-covid-19-response/)
+
+Center for Public Policy Priorities (Texas): [Essential Workers Deserve More than Praise](http://bettertexasblog.org/2020/04/essential-workers-deserve-more-than-praise/)
         
 Public Assets Institute (Vermont): [Women filled most of the frontline jobs](https://publicassets.org/blog/women-filled-most-of-the-frontline-jobs/)
  
