@@ -41,13 +41,6 @@ gen mother=0
 replace mother=1 if hhoc_b==1 & female==1
 lab var mother "Mother"
 lab val mother noyes
-
-/* Unmarried mother */
-gen unmarmom=0 
-replace unmarmom=1 if hhoc_b==1 & female==1 & married==0
-lab var unmarmom "Unmarried mother"
-lab val unmarmom noyes
-
 										/* tables */
 
 cd "$log"
@@ -58,10 +51,10 @@ tabout flind1 [fw=perwgt] if lfstat==1 ///
 	using table_0.xls, c(freq col) f(0c 1) clab(_) font(bold) replace
 tabout lfstat [fw=perwgt] using table_mom.xls, c(freq col) f(0c 1) ///
 	clab(_) font(bold) append
-tabout unmarmom ftpt wbhao nonw forborn lngi educ age50 hmown pubtran ///
+tabout married ftpt wbhao nonw forborn lngi educ age50 hmown pubtran ///
 	poor pov200 hins hhoc_b hhsenior_b flind1 [fw=perwgt] if lfstat==1 ///
 	& mother==1 using table_mom.xls, c(col) f(1) clab(_) font(bold) append
-tabout unmarmom ftpt wbhao nonw forborn lngi educ age50 hmown pubtran ///
+tabout married ftpt wbhao nonw forborn lngi educ age50 hmown pubtran ///
 	poor pov200 hins hhoc_b hhsenior_b flind [fw=perwgt] if lfstat==1 ///
 	 & mother==1 using table_mom.xls, c(col) f(1) clab(_) font(bold) append
 	 
