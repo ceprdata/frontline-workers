@@ -43,9 +43,6 @@ lab var perwgt "Person weight"
 notes perwgt: Integer weight of person
 notes perwgt: ACS: PWGTP
 
-/* Determine survey year */
-*local year=year in 1
-
 	/* ---- Geography ---- */
 cd "$do"
 do frontline-workers_acs_geog.do
@@ -131,6 +128,15 @@ lab val ftfy noyes
 notes ftfy: ACS: Dreived: WKHP WKW
 notes ftfy: Full-time: 35+ hrs/wk; Full year: 50+ wks last yr
 
+/* Unincorporated self-employed */
+gen byte selfemp=0 if cow~=.
+replace selfemp=1 if cow==6 
+replace selfemp=. if cow==9 /*unemployed*/
+lab var selfemp "Unincorporated self-employed"
+lab val selfemp noyes
+notes selfemp: Unincorporated self-employed only
+notes selfemp: ACS: derived: COW
+
 
 	/* ---- Gender ---- */
 gen byte female=0 if sex==1 | sex==2
@@ -158,7 +164,7 @@ replace agegrp=3 if (35<=age & age<=44)
 replace agegrp=4 if (45<=age & age<=54)
 replace agegrp=5 if (55<=age & age<=64)
 replace agegrp=6 if (65<=age & age~=.)
-lab var age "Age group"
+lab var agegrp "Age group"
 lab def agegrp 1 "16-24" 2 "25-34" 3 "35-44" 4 "45-54" 5 "55-64" 6 "65+"
 lab val agegrp agegrp
 notes agegrp: ACS: derived: AGEP
@@ -248,6 +254,51 @@ lab var citizen "US citizenship"
 lab val citizen noyes
 notes citizen: ACS: CIT
 
+	/* ---- Language ---- */
+	
+/* Household language */
+replace hhl=. if hhl<1 | 5<hhl
+lab def hhl	1 "English only" ///
+		2 "Spanish" ///
+		3 "Other Indo-European languages" ///
+		4 "Asian and Pacific Island languages" ///
+		5 "Other language"
+lab var hhl "Household language"
+lab val hhl hhl
+notes hhl: ACS: HHL
+
+/* Language other than English spoken at home */
+replace lanx=. if lanx<1
+replace lanx=. if 2<lanx
+replace lanx=0 if lanx==2
+lab var lanx "Language other than English spoken at home"
+lab val lanx noyes
+notes lanx: ACS: LANX
+
+/* Ability to speak English */
+replace eng=. if eng<1
+replace eng=. if 4<eng
+lab def eng	1 "Very well" ///
+		2 "Well" ///
+		3 "Not well" ///
+		4 "Not at all"
+lab var eng "Ability to speak English"
+lab val eng eng
+notes eng: ACS: ENG
+
+/* Limited English speaking household/ linguistic isolation */
+replace lngi=. if lngi<1  | 2<lngi
+replace lngi=0 if lngi==1
+replace lngi=1 if lngi==2
+lab var lngi "Limited English speaking household"
+lab val lngi noyes
+notes lngi: ACS: LNGI
+notes lngi: A household is limited English speaking if no one age 14 or older in the HH speaks /*
+*/ English only or speaks English "very well"
+notes lngi: A household is not limited English speaking if at least one person age 14 or older /*
+*/ in the HH speaks English only or speaks English "very well"
+notes lngi: sometimes refered to as "linguistic isolation"
+
 	
 	/* ---- Education ---- */
 gen byte educ=.
@@ -297,6 +348,32 @@ replace hmown=1 if ten==1 | ten==2
 lab var hmown "Home ownership"
 lab val hmown noyes
 notes hmown: ACS: Derived: TEN
+
+	/* ---- Internet access ---- */
+	
+/* Internet access at home */
+replace access=. if access<1 | access>3
+replace access=1 if access==1 | access==2 /* with and without a subscription */
+replace access=0 if access==3 /* no internet at home */
+lab var access "Internet access at home"
+lab val access noyes
+notes access: ACS: ACCESS
+notes access: Yes includes with a subscription and without a subscription to service
+notes access: No means no access to the Internet at this house, apartment, or mobile home
+	
+/* High-speed Internet access (question starting in 2016) */
+replace hispeed=. if hispeed<1 | hispeed>2
+replace hispeed=0 if hispeed==2
+lab var hispeed "Broadband Internet service such as cable, fiber optic, or DSL"
+lab val hispeed noyes
+notes hispeed: ACS: HISPEED
+
+/* Mobile broadband plan */
+replace broadbnd=. if broadbnd<1 | broadbnd>2
+replace broadbnd=0 if broadbnd==2
+lab var broadbnd "Mobile broadband plan"
+lab val broadbnd noyes
+notes broadbnd: ACS: BROADBND
 
 
 	/* ---- Work commute ---- */
@@ -394,6 +471,11 @@ lab var hhoc_b "Presence of a Child"
 lab val hhoc_b noyes
 notes hhoc: ACS: Derived from HUPAOC 
 
+/* Number of own children */
+replace noc=. if 19<noc
+lab var noc "Number of own children"
+notes noc: ACS: NOC
+
 /* Presence of household members 60+ */
 gen byte hh60=r60 if r60~=.
 replace hh60=. if 2<r60
@@ -418,17 +500,37 @@ gen byte hhsenior_b=0 if hhsenior~=.
 replace hhsenior_b=1 if hhsenior>0
 lab var hhsenior_b "Presence of 65+ HH members"
 
+/* Marital status */
+replace mar=. if mar<1
+replace mar=. if 5<mar
+lab def mar	1 "Married" ///
+		2 "Widowed" ///
+		3 "Divorced" ///
+		4 "Separated" ///
+		5 "Never Married"
+lab var mar "Marital status"
+lab val mar mar
+notes mar: ACS: MAR
+
+gen byte married=0 if mar~=.
+replace married=1 if mar==1
+lab var married "Married"
+lab val married noyes
+notes married: ACS: Derived: MAR
 
 
-order perwgt lfstat hrslyr ftpt wkslyr ftptlyr ftfy female agep agegrp ///
-age50 age60 age65 wbhao forborn citizen educ ten renter hmown jwtr ///
-pubtran povpip poor pov200 hins hiep hhoc hhoc_b hh60 hhsenior hhsenior_b ///
-flind1 flind flind_d flind_dd ind3d_18 naicsp socp18 state puma10 powsp10
 
-keep perwgt lfstat hrslyr ftpt wkslyr ftptlyr ftfy female agep agegrp ///
-age50 age60 age65 wbhao forborn citizen educ ten renter hmown jwtr ///
-pubtran povpip poor pov200 hins hiep hhoc hhoc_b hh60 hhsenior hhsenior_b ///
-flind1 flind flind_d flind_dd ind3d_18 naicsp socp18 state puma10 powsp10
+order perwgt lfstat hrslyr ftpt wkslyr ftptlyr ftfy selfemp female agep agegrp ///
+age50 age60 age65 wbhao forborn citizen hhl lanx eng lngi educ ten renter hmown ///
+access hispeed broadbnd jwtr pubtran povpip poor pov200 hins hiep hhoc hhoc_b noc ///
+hh60 hhsenior hhsenior_b mar married flind1 flind flind_d flind_dd ind3d_18 naicsp socp18 ///
+state puma10 powsp10
+
+keep perwgt lfstat hrslyr ftpt wkslyr ftptlyr ftfy selfemp female agep agegrp ///
+age50 age60 age65 wbhao forborn citizen hhl lanx eng lngi educ ten renter hmown ///
+access hispeed broadbnd jwtr pubtran povpip poor pov200 hins hiep hhoc hhoc_b noc ///
+hh60 hhsenior hhsenior_b mar married flind1 flind flind_d flind_dd ind3d_18 naicsp socp18 ///
+state puma10 powsp10
 
 
 cd "$dataout"
@@ -461,4 +563,3 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
 USA.
 */
-
