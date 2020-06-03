@@ -49,9 +49,9 @@ do frontline-workers_acs_geog.do
 
 	/* Industry / Occupation */
 cd "$do"
-do frontline-workers_acs_ind3d_18.do
-do frontline-workers_acs_socp18.do
-do frontline-workers_acs_indocc.do
+do cepr_frontline-workers_acs_ind3d_18.do
+do cepr_frontline-workers_acs_socp18.do
+do cepr_frontline-workers_acs_indocc.do
 
 /* employment status last week */
 gen byte lfstat=.
