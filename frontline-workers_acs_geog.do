@@ -1,7 +1,7 @@
 set more 1
 
 /*
-File: frontline-workers_acs_geog.do
+File: cepr_frontline-workers_acs_geog.do
 Date: 01 April 2020
 Desc: Geographic variable recodes from 2014-2018 5-year ACS for frontline workers project
 Note:	See copyright notice at end of program.
