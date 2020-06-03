@@ -1,7 +1,7 @@
 set more 1
 
 /*
-File:	frontline-workers_acs_ind3d_18.do
+File:	cepr_frontline-workers_acs_ind3d_18.do
 Date: 01 April 2020
 Desc:	Creates consistent industry 3 digit variable.
 Note:	See copyright notice at end of program.
