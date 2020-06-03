@@ -2,7 +2,7 @@
 set more 1
 
 /*
-File: frontline_workers_tables.do
+File: cepr_frontline_workers_tables.do
 Date: April 1, 2020
 Desc: industry / occupation of frontline workers
 */
