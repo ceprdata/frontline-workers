@@ -1,7 +1,7 @@
 set more 1
 
 /*
-File:	frontline-workers_acs_socp18.do
+File:	cepr_frontline-workers_acs_socp18.do
 Date: 01 April 2020
 Desc:	Creates consistent SOC occupation code variable.
 Note:	See copyright notice at end of program.
