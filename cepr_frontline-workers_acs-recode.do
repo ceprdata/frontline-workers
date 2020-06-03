@@ -1,7 +1,7 @@
 set more 1
 
 /*
-File: frontline-workers_acs-recode.do
+File: cepr_frontline-workers_acs-recode.do
 Date: 01 April 2020
 Desc: Variable recodes from 2014-2018 5-year ACS for frontline workers project
 */
