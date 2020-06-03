@@ -2,7 +2,7 @@ clear
 set more 1
 
 /*
-File: frontline-workers_acs-mothersday.do
+File: cepr_frontline-workers_acs-mothersday.do
 Date: 06 May 2020
 Desc: Variables and tables via frontline workers ACS extract for CEPR's Mother's Day report.
 */
