@@ -1,7 +1,7 @@
 set more 1
 
 /*
-File: frontline-workers_acs_indocc.do
+File: cepr_frontline-workers_acs_indocc.do
 Date: 01 April 2020
 Desc: Industries and occupations of frontline workers from 2014-2018 5-year ACS 
 Note:	See copyright notice at end of program.
