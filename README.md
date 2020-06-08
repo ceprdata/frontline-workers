@@ -36,7 +36,7 @@ rho@cepr.net or brown@cepr.net
 ## Publications
 The contents of this repository form the basis for CEPR's 
 [report](https://cepr.net/a-basic-demographic-profile-of-workers-in-frontline-industries/) on workers on the frontlines of the COVID-19 pandemic in the United States. 
-CEPR has used this data to produce related reports on [meatpacking workers](https://cepr.net/meatpacking-workers-are-a-diverse-group-who-need-better-protections/), [frontline mothers](https://cepr.net/mothers-in-frontline-industries-deserve-better/), and frontline workers in [Chicago and Illinois](https://cepr.net/frontline-workers-chicago-and-illinois/). 
+CEPR has used this data to produce related reports on [meatpacking workers](https://cepr.net/meatpacking-workers-are-a-diverse-group-who-need-better-protections/), [frontline mothers](https://cepr.net/mothers-in-frontline-industries-deserve-better/), [Black frontline workers](https://cepr.net/racial-inequality-among-workers-in-frontline-industries-black-workers-are-overrepresented-and-undercompensated/), and frontline workers in [Chicago and Illinois](https://cepr.net/frontline-workers-chicago-and-illinois/). 
 
 The National Partnership for Women & Families has also [cited](https://www.nationalpartnership.org/our-work/economic-justice/frontline-workers/) our data. Finally, our state data has been used and adapted in subsequent reports by other organizations, including:
 
