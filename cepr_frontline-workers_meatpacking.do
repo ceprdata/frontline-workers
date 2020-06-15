@@ -2,7 +2,7 @@ clear
 set more 1
 
 /*
-File: frontline-workers_tables-meatpacking.do
+File: cepr_frontline-workers_meatpacking.do
 Date: 29 April 2020
 Desc: industry / occupation of frontline workers
 */
