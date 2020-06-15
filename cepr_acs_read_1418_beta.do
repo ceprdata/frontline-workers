@@ -1,6 +1,6 @@
 /*
 File:	cepr_acs_read_1418.do
-Date:	May 30, 2020, CEPR ACS 2014-2018 Beta Version
+Date:	March 30, 2020, CEPR ACS 2014-2018 Beta Version
 Desc:	Reads and pre-processes raw ACS 5-year sample (2014-2018) data
 */
 
@@ -219,7 +219,7 @@ save cepr_acs_1418_beta, replace
 
 
 /* 
-Copyright 2020 CEPR, Hye Jin Rho Hayley Brown
+Copyright 2020 CEPR, Hye Jin Rho, Hayley Brown
 
 Center for Economic and Policy Research
 1611 Connecticut Avenue, NW Suite 400
