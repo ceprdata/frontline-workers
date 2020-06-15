@@ -4,7 +4,7 @@ set more 1
 /*
 File: cepr_frontline-workers_meatpacking.do
 Date: 29 April 2020
-Desc: industry / occupation of frontline workers
+Desc: Characteristics of frontline meatpacking workers
 */
 
 
