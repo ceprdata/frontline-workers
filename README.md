@@ -51,6 +51,8 @@ Maine Center for Economic Policy (Maine): [Maine’s most essential workers are 
 Boston Indicators (Massachusetts): [A Profile of Frontline Workers in Massachusetts](https://www.bostonindicators.org/article-pages/2020/april/frontline_workers)
 
 Montana Budget & Policy Center (Montana): [Montana’s Frontline Workers Are Mostly Women and People of Color](https://montanabudget.org/post/montanas-frontline-workers-are-mostly-women-and-people-of-color)
+
+Guinn Center (Nevada): [The Impact of COVID-19 on Communities of Color in Nevada](https://guinncenter.org/wp-content/uploads/2020/09/Guinn-Center-Impact-of-COVID-19-on-Communities-of-Color-in-Nevada.pdf)
         
 Fiscal Policy Institute (New York): [Appreciating New York’s Essential Workers at a Time of Pandemic](http://fiscalpolicy.org/wp-content/uploads/2020/04/Essential-Workers-Brief-Final.pdf)
         
